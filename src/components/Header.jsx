@@ -8,6 +8,7 @@ const Header = () => {
   return (
     <div>
       <Nav>
+        <p>Alex Victor</p>
         <div>
           <img src="./images/logo.png" alt="logo" width={"300px"} />
         </div>
