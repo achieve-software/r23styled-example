@@ -13,6 +13,7 @@ background-color: ${({theme}) => theme.colors.primary};
 
 @media (max-width:${({theme})=> theme.breakpoints.md}){
     text-align: center;
+    color: blue;
 }
 `;
 
