@@ -3,7 +3,7 @@ import Container from "./components/styled/Container"
 import { GlobalStyles } from "./components/styled/GlobalStyles"
 import { ThemeProvider } from "styled-components"
 import Card from "./components/Card"
-// import Footer from "./components/Footer"
+import Footer from "./components/Footer"
 import data from "./data"
 import Nav from "./components/Nav"
 const styles = {
@@ -25,7 +25,7 @@ const App = () => {
           return <Card {...item} key={index} />
         })}
       </Container>
-      {/* <Footer /> */}
+      <Footer />
     </ThemeProvider>
   )
 }
