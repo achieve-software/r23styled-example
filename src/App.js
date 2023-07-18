@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Container from "./components/styled/Container";
 import { GlobalStyles } from "./components/styled/GlobalStyles";
 import Card from "./components/Card";
+import data from "./data";
 
 const App = () => {
 
@@ -24,7 +25,11 @@ breakpoints:{xs:"300px", sm:"500px", md:"700px"}
         <GlobalStyles />
         <Container>
           <Header />
-          <Card/>
+        {data.map((item,index) =>{
+return <Card{...item} key={index} />
+
+
+        })}
         </Container>
       </ThemeProvider>
     </>
