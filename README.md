@@ -1,4 +1,4 @@
-# Huddle Landing Page (React & Styled Components)## Project Skeleton
+# Styled Components Example (React & Styled Components)## Project Skeleton
 ```
 |
 |----readme.md
