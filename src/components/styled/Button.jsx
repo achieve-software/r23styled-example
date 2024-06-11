@@ -4,7 +4,7 @@ const Button = styled.button`
   color: ${({ color }) => color || "white"};
   border: 1px solid #a62440;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   padding: 1rem 1.2rem;
   font-size: 1.1rem;
   margin-right: 0.5rem;
