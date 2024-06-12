@@ -12,7 +12,7 @@ const Button = styled.button`
   cursor: pointer;
   &:hover {
     opacity: 0.9;
-    transform: scale(0.90);
+    transform: scale(0.97);
   }
 `;
 export default Button;
